@@ -1,2 +1,8 @@
 
 /* Your CSS Code here. */
+display: grid;
+  grid-template-columns: repeat(2, 100px); /* Two columns each of 100px width */
+  grid-template-rows: repeat(2, 100px); /* Two rows each of 100px height */
+  gap: 0; /* No gap between rows and columns */
+  width: 200px; /* Set the total width of the grid to 200px */
+  height: 200px; /* Set the total height of the grid to 200px */
